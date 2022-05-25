@@ -1,5 +1,5 @@
-1.build: 
-2.  docker: 
-3.      worker: /Dockerfile
+build: 
+  docker: 
+      worker: /Dockerfile
 run:
-4.   worker: npm start
+   worker: npm start
